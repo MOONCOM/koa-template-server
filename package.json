@@ -1,0 +1,39 @@
+{
+  "name": "koa-template-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon main",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MOONCOM/koa-template-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-ejs": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^9.4.0",
+    "koa-session": "^6.1.0",
+    "koa-static": "^5.0.0",
+    "module-alias": "^2.2.2",
+    "mongoose": "^5.10.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "_moduleAliases": {
+    "@": "."
+  },
+  "bugs": {
+    "url": "https://github.com/MOONCOM/koa-template-server/issues"
+  },
+  "homepage": "https://github.com/MOONCOM/koa-template-server#readme"
+}
